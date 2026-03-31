@@ -21,6 +21,7 @@ DNS Configuration
 I reviewed DNS settings and confirmed local DNS assignment using loopback resolution. This shows how DNS is manually defined in a Windows environment.
 
 <img src="images/Edit DNS settings.png" alt="DNS Configuration" width="700"/>
+
 Network Adapter Review
 
 I reviewed adapter properties to confirm interface details, link speed, MAC address, and assigned IPv4 values. This shows hardware-level visibility of the active network adapter.
@@ -29,19 +30,19 @@ I reviewed adapter properties to confirm interface details, link speed, MAC addr
 
 Full Configuration Validation
 
-I ran ipconfig /all in Command Prompt to verify active IP settings, DNS servers, gateway values, and adapter details. This shows command-line validation of the full network configuration.
+I ran `ipconfig/all` in Command Prompt to verify active IP settings, DNS servers, gateway values, and adapter details. This shows command-line validation of the full network configuration.
 
 <img src="images/Command prompt ipconfig all.png" alt="IP Configuration" width="700"/>
 
 Gateway Connectivity Test
 
-I ran ping against the default gateway to confirm successful communication with the local router.
+I ran `ping` against the default gateway to confirm successful communication with the local router.
 
 <img src="images/Command prompt ping.png" alt="Ping Gateway" width="700"/>
 
 External Connectivity Test
 
-I ran ping against google.com to confirm hostname resolution and external internet connectivity.
+I ran `ping` against google.com to confirm hostname resolution and external internet connectivity.
 
 <img src="images/Command prompt ping google.png" alt="Ping Google" width="700"/>
 
